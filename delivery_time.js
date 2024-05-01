@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const currentDate = new Date();
-    const umt_settings = umt_settings_data;
+    const umt_settings = umt_settings_data; //Отримані дані з бекенду wordpress
     const currentDayOfWeek = currentDate.getDay();
     const currentHour = currentDate.getHours();
     const curentPageLang = document.documentElement.lang;
